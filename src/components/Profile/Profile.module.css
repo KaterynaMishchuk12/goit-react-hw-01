@@ -1,0 +1,37 @@
+ul,
+ol {
+  list-style: none;
+}
+
+.profile {
+  border: 2px solid white;
+  border-radius: 30px;
+  text-align: center;
+  width: 375px;
+  padding: 12px;
+}
+.description {
+  padding: 24px;
+}
+.avatar {
+  border-radius: 50px;
+  background-color: rgb(243, 207, 213);
+}
+.name {
+  font-size: 32px;
+  color: white;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  justify-content: center;
+  padding: 0;
+}
+.statsListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

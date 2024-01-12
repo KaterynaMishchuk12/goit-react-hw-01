@@ -1,0 +1,17 @@
+.transactionHistory {
+  border: 1px solid white;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 375px;
+}
+th,
+td {
+  padding: 20px;
+}
+thead th {
+  background-color: rgb(30, 29, 31);
+}
+tbody td {
+  text-align: center;
+  border: 1px solid white;
+}
